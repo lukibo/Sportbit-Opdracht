@@ -1,0 +1,329 @@
+.modal-title {
+    background-color: #b1b1b1;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.content-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: auto;
+    max-width: none;
+
+    .information{
+        margin-right: 30px;
+        margin-left: 20px;
+
+        .info-title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .info-icon {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+
+            .info-text {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+
+        .divider-light {
+            height: 1px;
+            background-color: #8e8e8e;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        .input-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .input-title {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .input-text {
+                width: 300px;
+            }
+        }
+
+        .code-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+
+            .code-title {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .code-text {
+                width: 300px;
+            }
+        }
+
+        .description-box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 15px;
+
+            .description-title {
+                font-size: 14px;
+                font-weight: bold;
+                margin-right: 40px;
+            }
+
+            .description-text {
+                padding: 10px;
+                width: 300px;
+                border-color: #d8d8d8;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .settings {
+        margin-right: 20px;
+
+        .settings-title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .settings-icon {
+                font-size: 20px;
+                margin-right: 10px;
+            }
+
+            .settings-text {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+
+        .divider-light {
+            height: 1px;
+            background-color: #8e8e8e;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        .select-grid {
+            display: flex;
+            flex-direction: column;
+            background-color: #e1e1e1;
+            border-radius: 6px;
+            padding: 25px;
+
+            .select-box {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .select-text {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .select-input .MuiAutocomplete-inputRoot {
+                    background-color: white;
+                    width: 300px;
+                    height: 41.125px;
+                }
+            }
+
+            .divider-medium {
+                height: 1px;
+                background-color: #c5c5c5;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .amount-box {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .amount-text {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .amount-input-box {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    .amount-before {
+                        background-color: white;
+                        margin-right: 5px;
+                        width: 100px;
+                    }
+
+                    .amount-after {
+                        background-color: white;
+                        margin-left: 5px;
+                        width: 50px;
+                    }
+                }
+            }
+
+            .percentage-box {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .percentage-text {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .percentage-input {
+                    background-color: white;
+                    width: 100px;
+                }
+            }
+        }
+
+        .date-grid {
+            display: flex;
+            flex-direction: column;
+            background-color: #e1e1e1;
+            border-radius: 6px;
+            padding: 25px;
+            margin-top: 20px;
+
+            .start-date {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .start-title {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .date-start-text {
+                    background-color: white;
+                }
+            }
+
+            .end-row {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+                margin-top: 20px;
+
+                .end-date {
+
+                    .end-title {
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+
+                    .optional {
+                        color: #9a9a9a;
+                    }
+                }
+
+                .date-end-text {
+                    background-color: white;
+                }
+            }
+        }
+
+        .max-grid {
+            display: flex;
+            flex-direction: column;
+            background-color: #e1e1e1;
+            border-radius: 6px;
+            padding: 25px;
+            margin-top: 20px;
+
+            .check {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .max-title {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .checkbox-box {
+                    color: #3a3a3a;
+                    margin-left: 30px;
+                    transform: none;
+                }
+                .checkbox-box:hover {
+                    background-color: transparent !important;
+                }
+            }
+
+            .max-uses {
+                display: grid;
+                grid-template-columns: 2fr 3fr;
+                align-items: center;
+
+                .uses-title {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+
+                .uses-text {
+                    background-color: white;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+.divider-end {
+    height: 1px;
+    background-color: #919191;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-top: 20px;
+}
+
+.btn-actions {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+    .btn-cancel {
+        background-color: #bfbfbf;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .btn-save {
+        background-color: yellow;
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+}
